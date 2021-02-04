@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2edab9a8140d0064089eb25e6b1eee8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _segmentTemplate: {fileID: 7929446881170862138, guid: 7ce3d3fd7d7f2714dbb029c0242f664d, type: 3}
+  _segmentTemplate: {fileID: -4190492583973242826, guid: 7ce3d3fd7d7f2714dbb029c0242f664d, type: 3}
   _blockTemplate: {fileID: -1109620868261635616, guid: 719ae6be67720af4c809c639845eef41, type: 3}
-  _finishTemplate: {fileID: 3180002514560374276, guid: 089ef9f244d35ec4c862a4f0f53a8bd1, type: 3}
+  _finishTemplate: {fileID: 6492553248904576940, guid: 089ef9f244d35ec4c862a4f0f53a8bd1, type: 3}
   _towerSize: 5

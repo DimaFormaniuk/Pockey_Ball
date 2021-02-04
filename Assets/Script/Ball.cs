@@ -25,12 +25,20 @@ public class Ball : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             Ray ray = new Ray(transform.position, Vector3.forward);
-            if(Physics.Raycast(ray,out RaycastHit hitInfo))
+            if (Physics.Raycast(ray, out RaycastHit hitInfo))
             {
-                if(hitInfo.collider.TryGetComponent(out Block block))
+                if (hitInfo.collider.TryGetComponent(out Block block))
+                {
+
+                }
+                else if (hitInfo.collider.TryGetComponent(out Segment segment))
                 {
                     _rigidbody.isKinematic = true;
                     _rigidbody.velocity = Vector3.zero;
+                }
+                else if (hitInfo.collider.TryGetComponent(out Finish finish))
+                {
+
                 }
             }
         }
